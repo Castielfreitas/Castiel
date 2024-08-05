@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Nome</h1>
+        <nav>
+            <a href="#about">Sobre Mim</a>
+            <a href="#experience">Experiência Profissional</a>
+            <a href="#education">Educação</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou [Seu Nome], um profissional com experiência em [Seu Campo]. Tenho uma paixão por [Seu Interesse] e estou sempre em busca de novas oportunidades para crescer e aprender.</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Experiência Profissional</h2>
+        <div>
+            <h3>[Título do Cargo] - [Nome da Empresa]</h3>
+            <p>[Descrição das Responsabilidades e Conquistas]</p>
+            <p><strong>Período:</strong> [Data de Início] - [Data de Término]</p>
+        </div>
+        <!-- Repita o bloco acima para cada experiência -->
+    </section>
+    
+    <section id="education">
+        <h2>Educação</h2>
+        <div>
+            <h3>[Nome do Curso] - [Nome da Instituição]</h3>
+            <p><strong>Data de Conclusão:</strong> [Data]</p>
+        </div>
+        <!-- Repita o bloco acima para cada formação -->
+    </section>
+    
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>[Habilidade 1]</li>
+            <li>[Habilidade 2]</li>
+            <li>[Habilidade 3]</li>
+            <!-- Adicione mais habilidades conforme necessário -->
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div>
+            <h3>[Nome do Projeto]</h3>
+            <p>[Descrição do Projeto]</p>
+            <p><a href="[Link para o Projeto]" target="_blank">Ver Projeto</a></p>
+        </div>
+        <!-- Repita o bloco acima para cada projeto -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Se você quiser entrar em contato comigo, pode me enviar um e-mail para <a href="mailto:[seuemail@example.com]">seuemail@example.com</a></p>
+        <div class="contact-info">
+            <p><strong>Telefone:</strong> [Seu Telefone]</p>
+            <p><strong>LinkedIn:</strong> <a href="[Seu LinkedIn]" target="_blank">[Seu Perfil LinkedIn]</a></p>
+            <p><strong>GitHub:</strong> <a href="[Seu GitHub]" target="_blank">[Seu Perfil GitHub]</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; [Ano Atual] Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
